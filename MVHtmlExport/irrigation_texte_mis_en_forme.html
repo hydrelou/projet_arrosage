@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Avantages du débit adapté</title>
+  <style>
+    :root{
+      --bg:#f6faf6;
+      --card:#ffffff;
+      --accent:#1e9b6e;
+      --muted:#6b7280;
+      --shadow: 0 6px 18px rgba(16,24,40,0.06);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{background:linear-gradient(180deg,var(--bg),#f0faf2);margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px}
+    .card{background:var(--card);max-width:720px;width:100%;border-radius:14px;box-shadow:var(--shadow);padding:32px;display:grid;grid-template-columns:72px 1fr;gap:20px;align-items:start}
+    .icon{width:64px;height:64px;display:flex;align-items:center;justify-content:center;border-radius:12px;background:linear-gradient(135deg,#e6fbf0,#d9f7ea)}
+    .icon svg{width:36px;height:36px;}
+    h1{margin:0;font-size:20px;color:#0f172a}
+    p{margin:12px 0 0;color:var(--muted);line-height:1.6;font-size:16px}
+    .highlight{color:var(--accent);font-weight:600}
+    .bullets{margin-top:16px;display:flex;gap:12px}
+    .bullets li{color:var(--muted);line-height:1.5}
+    footer{grid-column:1/-1;margin-top:20px;color:#94a3b8;font-size:13px}
+    @media (max-width:560px){.card{grid-template-columns:1fr;gap:12px;padding:20px}.icon{justify-self:start}}
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center; margin-bottom:24px; font-size:28px; color:#0f172a">L’arrosage goutte à goutte</h1>
+  <article class="card" role="article" aria-labelledby="titre">
+    <div class="icon" aria-hidden="true">
+      <!-- goutte d'eau stylisée -->
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M12 2s5 5.5 5 9.5A5 5 0 0 1 7 11.5C7 7.5 12 2 12 2z" fill="currentColor" opacity="0.95"/>
+        <path d="M12 13a3.5 3.5 0 0 0 0 7 3.5 3.5 0 0 0 0-7z" fill="white" opacity="0.9"/>
+      </svg>
+    </div>
+
+    <div>
+      <h1 id="titre">Débit adapté — efficacité hydrique</h1>
+      <p>
+        <span class="highlight">Débit adapté</span> permet de doser exactement la quantité d'eau par plante, sans gaspillage. L'eau étant absorbée lentement, les pertes d'eau par <strong>ruissellement</strong> et <strong>évaporation</strong> sont de plus quasi inexistantes.
+      </p>
+
+      <ul class="bullets" aria-label="Avantages">
+        <li>Dosage précis pour chaque plante</li>
+        <li>Réduction significative du gaspillage</li>
+        <li>Moins de ruissellement et d'évaporation</li>
+      </ul>
+
+      <footer>Idéal pour potagers, serres et espaces paysagers économes en eau.</footer>
+    </div>
+  </article>
+</body>
+</html>

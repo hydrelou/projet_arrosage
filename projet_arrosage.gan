@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="projet_arrosage" company="1STI2D" webLink="http://" view-date="2025-12-01" view-index="0" gantt-divider-location="351" resource-divider-location="212" version="3.3.3316" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="projet_arrosage" company="1STI2D" webLink="http://" view-date="2025-11-22" view-index="0" gantt-divider-location="351" resource-divider-location="212" version="3.3.3316" locale="fr_FR">
     <description><![CDATA[project de creation d'un systeme d'arrosage automatique ]]></description>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nom" width="200" order="0"/>
@@ -80,7 +80,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="2" uid="3186d380271841df89a40f3d04f8f88c" name="recherche solution" meeting="false" start="2025-11-21" duration="7" complete="13" thirdDate="2025-11-21" thirdDate-constraint="1" webLink="https%3A%2F%2Fhydrelou.github.io%2Fprojet_arrosage%2FMVHtmlExport%2Findex.htm" expand="true">
+        <task id="2" uid="3186d380271841df89a40f3d04f8f88c" name="recherche solution" meeting="false" start="2025-11-21" duration="5" complete="13" thirdDate="2025-11-21" thirdDate-constraint="1" webLink="https%3A%2F%2Fhydrelou.github.io%2Fprojet_arrosage%2FMVHtmlExport%2Findex.htm" expand="true">
             <notes><![CDATA[Objectif 
 
 
@@ -96,10 +96,10 @@ conclusion
 ]]></notes>
             <depend id="3" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="3" uid="6e3bc5a9d69741c49924a2f7d26570db" name="jalon recherche" meeting="true" start="2025-12-02" duration="0" complete="0" expand="true">
+        <task id="3" uid="6e3bc5a9d69741c49924a2f7d26570db" name="jalon recherche" meeting="true" start="2025-11-28" duration="0" complete="0" expand="true">
             <depend id="4" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="4" uid="d1073f3e9fe74894beea9e5ea497ee49" name="analyse besoin" meeting="false" start="2025-12-02" duration="8" complete="0" expand="true">
+        <task id="4" uid="d1073f3e9fe74894beea9e5ea497ee49" name="analyse besoin" meeting="false" start="2025-11-28" duration="2" complete="0" expand="true">
             <notes><![CDATA[Objectif 
 
 
@@ -116,11 +116,11 @@ conclusion
 ]]></notes>
             <depend id="5" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="5" uid="2f7e07ab177e41328b5e31d47d355eb1" name="alon analyse besoin" meeting="true" start="2025-12-12" duration="0" complete="0" expand="true">
+        <task id="5" uid="2f7e07ab177e41328b5e31d47d355eb1" name="alon analyse besoin" meeting="true" start="2025-12-02" duration="0" complete="0" expand="true">
             <depend id="6" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="6" uid="0d79de68067f4d528c4e6c51a337079e" name="prototypage" meeting="false" start="2025-12-12" duration="4" complete="0" expand="true">
-            <task id="8" uid="e72d4c710d5d4c28bbec749be1647b76" name="vittascience" meeting="false" start="2025-12-12" duration="4" complete="0" expand="true">
+        <task id="6" uid="0d79de68067f4d528c4e6c51a337079e" name="prototypage" meeting="false" start="2025-12-03" duration="3" complete="0" expand="true">
+            <task id="8" uid="e72d4c710d5d4c28bbec749be1647b76" name="vittascience" meeting="false" start="2025-12-03" duration="3" complete="0" expand="true">
                 <notes><![CDATA[Objectif 
 
 
@@ -135,7 +135,7 @@ methode
 conclusion
 ]]></notes>
             </task>
-            <task id="7" uid="3c19f9d17fa54ae691c77e034f272b5e" name="modelisation 3D" meeting="false" start="2025-12-12" duration="4" complete="0" expand="true">
+            <task id="7" uid="3c19f9d17fa54ae691c77e034f272b5e" name="modelisation 3D" meeting="false" start="2025-12-03" duration="2" complete="0" expand="true">
                 <notes><![CDATA[Objectif 
 
 
